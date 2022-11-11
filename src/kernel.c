@@ -52,7 +52,7 @@ void init_vga() {
             const u32 index = (VGA_COLS * row) + col;
             
             // An entry in the VGA buffer has the following format:
-            //       4 bits       4 bits             8 bits
+            //      4 bits       4 bits              8 bits
             //  ┌────────────┬────────────┬──────────────────────────┐
             //  │ Background │ Foreground │     ASCII Character      │ 
             //  └────────────┴────────────┴──────────────────────────┘
